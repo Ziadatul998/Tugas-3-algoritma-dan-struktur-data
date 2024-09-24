@@ -1,0 +1,9 @@
+for i in range(7, 0, -1):
+    print(' ' * (7 - i) + '* ' * i)
+START
+FOR i FROM 7 DOWNTO 1 DO
+    PRINT SPACE (7 - i)
+    PRINT '*' WITH SPACE FOR i TIMES
+    PRINT NEW LINE
+END FOR
+END https://drive.google.com/file/d/1b5j8aG766qfek_RePwLPPPcBFybJCs_8/view?usp=drivesdk
