@@ -1,9 +1,9 @@
-for i in range(1, 6):
+pyhton: for i in range(1, 6):
     print(' ' * (5 - i) + '*.' * i)
-START
+pseudocode: START
 FOR i FROM 1 TO 5 DO
     PRINT SPACE (5 - i)
     PRINT '*.' FOR i TIMES
     PRINT NEW LINE
 END FOR
-END https://drive.google.com/file/d/1uGg7QDvFBdgqsRwmUldlIA8YSLx5M6BE/view?usp=drivesdk
+END  flowchart:https://drive.google.com/file/d/1uGg7QDvFBdgqsRwmUldlIA8YSLx5M6BE/view?usp=drivesdk
