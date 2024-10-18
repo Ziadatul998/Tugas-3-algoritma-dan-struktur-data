@@ -1,5 +1,10 @@
-pyhton: for i in range(1, 6):
-    print(' ' * (5 - i) + '*.' * i)
+pyhton: n=6
+print(" " * n + "*")
+for i in range(1, n + 1):
+    print(" " * (n - i), end="")
+    for j in range(i):
+        print("*", end=".")
+    print("*")    
 pseudocode: START
 FOR i FROM 1 TO 5 DO
     PRINT SPACE (5 - i)
